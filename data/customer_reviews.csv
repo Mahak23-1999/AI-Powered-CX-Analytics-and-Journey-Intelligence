@@ -1,0 +1,11 @@
+customer_id,journey_stage,feedback,rating
+101,Onboarding,Signup process was confusing,2
+102,Product Usage,App works smoothly and fast,5
+103,Support,Support team responded very late,2
+104,Checkout,Payment failed multiple times,1
+105,Product Usage,Features are very helpful,4
+106,Onboarding,Account verification took too long,2
+107,Support,Customer support solved my problem quickly,5
+108,Checkout,Checkout page crashed during payment,1
+109,Product Usage,I love the interface design,5
+110,Support,Waiting time for support was frustrating,2
