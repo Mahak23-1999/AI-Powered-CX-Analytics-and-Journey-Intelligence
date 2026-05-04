@@ -1,0 +1,309 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+/* CONTAINER */
+.container {
+  padding: 30px;
+}
+
+/* HEADER */
+.header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* SUBTEXT */
+.subtext {
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+/* UPLOAD SECTION */
+.upload-box {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.upload-box input {
+  margin-bottom: 10px;
+}
+
+.button {
+  background: #3b82f6;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #2563eb;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+/* CARD */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* COLORS */
+.card.total {
+  border-left: 5px solid #3b82f6;
+}
+
+.card.positive {
+  border-left: 5px solid #22c55e;
+}
+
+.card.negative {
+  border-left: 5px solid #ef4444;
+}
+
+/* TABLE */
+.table-container {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  overflow-x: auto;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  background: #334155;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #334155;
+}
+
+tr:hover {
+  background: #334155;
+}
+
+/* STATUS COLORS */
+.status-positive {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.status-negative {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #64748b;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* EXTRA STYLING */
+.section {
+  margin-top: 30px;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* BADGE */
+.badge {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.badge.good {
+  background: #14532d;
+  color: #22c55e;
+}
+
+.badge.bad {
+  background: #7f1d1d;
+  color: #ef4444;
+}
+
+/* BUTTON SECONDARY */
+.button-secondary {
+  background: #475569;
+}
+
+.button-secondary:hover {
+  background: #334155;
+}
+
+/* INPUT STYLE */
+input[type="file"] {
+  background: #334155;
+  padding: 8px;
+  border-radius: 6px;
+  color: white;
+}
+
+/* TITLE BAR */
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FLEX */
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+/* ALIGN */
+.center {
+  text-align: center;
+}
+
+/* PADDING */
+.p-20 {
+  padding: 20px;
+}
+
+/* MARGIN */
+.mt-20 {
+  margin-top: 20px;
+}
+
+/* SHADOW */
+.shadow {
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+/* HOVER EFFECT */
+.hover-scale:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+
+/* BORDER */
+.border {
+  border: 1px solid #334155;
+}
+
+/* ROUND */
+.round {
+  border-radius: 10px;
+}
+
+/* TEXT SMALL */
+.text-small {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+/* TEXT LARGE */
+.text-large {
+  font-size: 32px;
+}
+
+/* DARK CARD */
+.dark-card {
+  background: #020617;
+}
+
+/* LIGHT CARD */
+.light-card {
+  background: #1e293b;
+}
+
+/* HIGHLIGHT */
+.highlight {
+  color: #3b82f6;
+}
+
+/* ALERT */
+.alert {
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.alert.success {
+  background: #14532d;
+  color: #22c55e;
+}
+
+.alert.warning {
+  background: #78350f;
+  color: #facc15;
+}
+
+.alert.error {
+  background: #7f1d1d;
+  color: #ef4444;
+}
